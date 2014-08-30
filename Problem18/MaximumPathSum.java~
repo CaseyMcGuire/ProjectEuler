@@ -1,0 +1,10 @@
+import java.util.*;
+import java.io.*;
+
+class MaximumPathSum{
+
+    public static void main(String[] args){
+	Scanner scanner = new Scanner(
+    }
+
+}
