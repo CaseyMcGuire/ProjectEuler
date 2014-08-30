@@ -13,10 +13,8 @@ class MaximumPathSum{
 	    while(scanner.hasNextLine()){
 		triangle.add(new ArrayList<Integer>());
 		for(String s: scanner.nextLine().split(" ")){
-		    System.out.print(s + " ");
 		    triangle.get(index).add(Integer.parseInt(s));
 		}
-		System.out.println();
 		index++;
 	    }
 
@@ -37,9 +35,7 @@ class MaximumPathSum{
 	    array[i] = new int[listOfLists.get(i).size()];
 	    for(int j = 0; j<array[i].length; j++){
 		array[i][j] = listOfLists.get(i).get(j);
-		System.out.print(array[i][j] + " ");
 	    }
-	    System.out.println();
 	}
 	
 	return array;
