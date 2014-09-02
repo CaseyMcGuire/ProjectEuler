@@ -1,9 +1,0 @@
-class LongestCollatzSequence{
-
-    static long[] chainLengths = new long[1000000];
-
-    public static void main(String[] args){
-	
-    }
-
-}
